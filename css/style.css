@@ -1,0 +1,66 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Noto Serif;
+  color: purple;
+  background-color: floralwhite;
+}
+
+h1 {
+  font-family: oswald;
+}
+
+[class*="col"] {
+  float: left;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+figure {
+  display: block;
+  margin: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 12px;
+}
+
+p {
+  text-align: left;
+  font-family: Lora;
+}
+
+li {
+  text-align: left;
+  font-family: Lora;
+}
+img {
+  border-radius: 6px;
+}
+fieldset {
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.callout {
+  font-size: 12px;
+}
+
+#nobullets {
+  list-style-type: none;
+}
+
+#pcenter {
+  text-align: center;
+  margin-top: -25px;
+}
